@@ -27,6 +27,29 @@ function buildGrid(data) {
         .attr('width', 100)
         .attr('height', 100);
 
+    // for switch pattern background
+    trianglebox.append("defs")
+        .append("pattern")
+        .attr("id", "lightstripe")
+        .attr("patternUnits","userSpaceOnUse")
+        .attr("width", 5)
+        .attr("height", 5)
+        .append("rect")
+        .attr("width", 4)
+        .attr("height", 4)
+        .attr("x", 0)
+        .attr("y", 0)
+        // .attr("filll","#000");
+        .attr("fill","#DDC6B6");
+        // .attr("stroke","#000");
+
+    d3.select('.triangle-box svg pattern#lightstripe').append('path')
+      .attr('d', 'M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2')
+      .attr('stroke', '#000')
+      .attr('stroke-width', 0.5)
+      .attr("opacity", 0.5);
+    // end for switching pattern background
+
     trianglebox.append('g')
         .attr('class', 'topicTriangles')
         .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
@@ -62,7 +85,7 @@ function buildGrid(data) {
             if (d.design == 'no'){
                 return '#DDC6B6';
             } else if (d.design == 'yes'){
-                return "url(#lightstripe)";
+                return "url(#lightstripe) blue";
             }
         })
         .style("stroke","#262223")
