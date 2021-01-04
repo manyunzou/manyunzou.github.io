@@ -157,13 +157,16 @@ function buildGrid(data) {
             tooltip
                 .html(d.title)
                 .style("left", (d3.event.pageX - 800) + "px")
-                .style("top", (d3.event.pageY - 28) + "px")
+                .style("top", (d3.event.pageY) + "px")
+                .style("cursor", "pointer")
+                .style("opacity","0.8")
                 .style("visibility","visible");
         })
         .on("mouseout", function(d){
             d3.select(this).attr("transform","rotate(0 0 0)");
             tooltip.style("visibility","hidden");
         });
+
 
         trianglebox
         .on("click", function(d){
@@ -174,9 +177,6 @@ function buildGrid(data) {
                 .style("top", (d3.event.pageY - 28) + "px")
                 .style("visibility","visible");
         });
-        // .on("mouseout", function(d){
-        //     d3.select(this).attr("transform","rotate(0 0 0)")
-        // });
 
      
   }
