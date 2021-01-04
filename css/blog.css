@@ -87,6 +87,24 @@ a:hover {
     height: 1000px;
     margin-top: 0px;
   }  
+
+  .pageTitle {
+    width: 290px;
+    margin-left: 0px;
+  }
+
+  .legendImage {
+    width: 130px;
+    margin-left:10px;
+  }
+  
+  .titleImage {
+    width: 130px;
+  }
+
+  .triangle-box {
+    margin-left:-20px;
+  }
 }
 
 

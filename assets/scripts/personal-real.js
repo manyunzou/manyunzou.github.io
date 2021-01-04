@@ -53,6 +53,7 @@ function buildGrid(data) {
     trianglebox.append('g')
         .attr('class', 'topicTriangles')
         .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+        // .attr("transform","rotate(180 0 0)")
         .append('path')
         .attr('d', d => 'M ' + xScale(80) + ' ' + yScale(30) + ' L ' + xScale(60) + ' ' + yScale(60) + ' L ' + xScale(40) + ' ' + yScale(30) + ' Z')
         .style("fill",function(d){
@@ -137,6 +138,46 @@ function buildGrid(data) {
         .text(function(d){            
             return d.year;
         });
+
+    // add mouseover effect
+    var tooltip = d3.select(".triangle-box")
+        .append("div")
+        .style("position","absolute")
+        .style("visibility","hidden")
+        .style("background-color","white")
+        .style("border","solid")
+        .style("border-width", "1px")
+        .style("border-radius", "5px")
+        .style("padding", "10px");
+
+
+    trianglebox
+        .on("mouseover", function(d){
+            d3.select(this).attr("transform","rotate(30 0 0)");
+            tooltip
+                .html(d.title)
+                .style("left", (d3.event.pageX - 800) + "px")
+                .style("top", (d3.event.pageY - 28) + "px")
+                .style("visibility","visible");
+        })
+        .on("mouseout", function(d){
+            d3.select(this).attr("transform","rotate(0 0 0)");
+            tooltip.style("visibility","hidden");
+        });
+
+        trianglebox
+        .on("click", function(d){
+            d3.select(this).attr("transform","rotate(30 0 0)");
+            tooltip
+                .html(d.title)
+                .style("left", (d3.event.pageX - 800) + "px")
+                .style("top", (d3.event.pageY - 28) + "px")
+                .style("visibility","visible");
+        });
+        // .on("mouseout", function(d){
+        //     d3.select(this).attr("transform","rotate(0 0 0)")
+        // });
+
      
   }
 
