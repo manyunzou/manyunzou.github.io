@@ -144,7 +144,7 @@ function buildGrid(data) {
         .append("div")
         .style("position","absolute")
         .style("visibility","hidden")
-        .style("background-color","white")
+        .style("background-color","#DDC6B6")
         .style("border","solid")
         .style("border-width", "1px")
         .style("border-radius", "5px")
