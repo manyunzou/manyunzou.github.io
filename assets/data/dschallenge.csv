@@ -1,0 +1,145 @@
+undergraduate_major,graduate_major,role,hours,undergraduate_short,graduate_short
+"Science, Math, and Technology","Science, Math, and Technology",Analyst,1-5 hours,science-related,science-related
+Social Sciences,nan,Analyst,5-10 hours,science-related,None
+"Science, Math, and Technology",Business,Leadership,1-5 hours,science-related,not-science-related
+"Science, Math, and Technology",nan,Analyst,1-5 hours,science-related,None
+Social Sciences,nan,Analyst,5-10 hours,science-related,None
+"Science, Math, and Technology",nan,Analyst,5-10 hours,science-related,None
+"Science, Math, and Technology","Science, Math, and Technology",Scientist,1-5 hours,science-related,science-related
+Arts and Humanities,nan,Developer,5-10 hours,not-science-related,None
+Social Sciences,Social Sciences,Analyst,5-10 hours,science-related,science-related
+"Science, Math, and Technology",nan,Analyst,1-5 hours,science-related,None
+"Science, Math, and Technology",nan,Analyst,1-5 hours,science-related,None
+Social Sciences,Multi-/Interdisciplinary Studies,Cartographer,1-5 hours,science-related,science-related
+"Science, Math, and Technology",nan,Developer,Less than 1 hour,science-related,None
+Business,nan,Analyst,Less than 1 hour,not-science-related,None
+"Science, Math, and Technology",Multi-/Interdisciplinary Studies,Leadership,5-10 hours,science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Scientist,1-5 hours,science-related,science-related
+Social Sciences,Social Sciences,Analyst,Less than 1 hour,science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Analyst,20-30 hours,science-related,science-related
+Social Sciences,nan,Designer,Less than 1 hour,science-related,None
+"Science, Math, and Technology",nan,Analyst,1-5 hours,science-related,None
+Health and Medicine,"Science, Math, and Technology",Developer,1-5 hours,science-related,science-related
+"Science, Math, and Technology",nan,Leadership,5-10 hours,science-related,None
+Business,nan,Analyst,1-5 hours,not-science-related,None
+Social Sciences,Social Sciences,Analyst,1-5 hours,science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Designer,1-5 hours,science-related,science-related
+Arts and Humanities,nan,Designer,1-5 hours,not-science-related,None
+"Science, Math, and Technology","Science, Math, and Technology",Designer,5-10 hours,science-related,science-related
+Social Sciences,"Science, Math, and Technology",Designer,10-20 hours,science-related,science-related
+"Science, Math, and Technology",nan,Analyst,1-5 hours,science-related,None
+Arts and Humanities,Multi-/Interdisciplinary Studies,Developer,1-5 hours,not-science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Developer,1-5 hours,science-related,science-related
+Social Sciences,Social Sciences,Developer,10-20 hours,science-related,science-related
+Multi-/Interdisciplinary Studies,Multi-/Interdisciplinary Studies,Leadership,1-5 hours,science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Scientist,1-5 hours,science-related,science-related
+Social Sciences,Social Sciences,Leadership,1-5 hours,science-related,science-related
+Social Sciences,"Science, Math, and Technology",Developer,5-10 hours,science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Analyst,1-5 hours,science-related,science-related
+Business,"Science, Math, and Technology",Analyst,1-5 hours,not-science-related,science-related
+Social Sciences,Social Sciences,Leadership,1-5 hours,science-related,science-related
+Business,nan,Analyst,5-10 hours,not-science-related,None
+Business,Business,Analyst,1-5 hours,not-science-related,not-science-related
+"Science, Math, and Technology","Science, Math, and Technology",Analyst,5-10 hours,science-related,science-related
+Multi-/Interdisciplinary Studies,nan,Journalist,1-5 hours,science-related,None
+"Science, Math, and Technology",nan,Developer,30-40 hours,science-related,None
+Social Sciences,nan,Engineer,Less than 1 hour,science-related,None
+Social Sciences,Arts and Humanities,Leadership,5-10 hours,science-related,not-science-related
+"Science, Math, and Technology",nan,Analyst,5-10 hours,science-related,None
+Public and Social Services,Education,Leadership,1-5 hours,not-science-related,not-science-related
+Arts and Humanities,Arts and Humanities,Designer,Less than 1 hour,not-science-related,not-science-related
+Arts and Humanities,nan,Cartographer,Less than 1 hour,not-science-related,None
+"Science, Math, and Technology",Business,Leadership,1-5 hours,science-related,not-science-related
+Multi-/Interdisciplinary Studies,nan,Analyst,1-5 hours,science-related,None
+Arts and Humanities,Business,Leadership,10-20 hours,not-science-related,not-science-related
+Arts and Humanities,"Science, Math, and Technology",Analyst,5-10 hours,not-science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Analyst,1-5 hours,science-related,science-related
+"Science, Math, and Technology",nan,Analyst,5-10 hours,science-related,None
+Arts and Humanities,Health and Medicine,Leadership,5-10 hours,not-science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Engineer,Less than 1 hour,science-related,science-related
+Health and Medicine,Health and Medicine,Analyst,1-5 hours,science-related,science-related
+"Science, Math, and Technology",nan,Leadership,1-5 hours,science-related,None
+Health and Medicine,"Science, Math, and Technology",Scientist,1-5 hours,science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Analyst,Less than 1 hour,science-related,science-related
+Arts and Humanities,"Science, Math, and Technology",Analyst,1-5 hours,not-science-related,science-related
+"Science, Math, and Technology",Social Sciences,Designer,1-5 hours,science-related,science-related
+"Science, Math, and Technology",Business,Leadership,1-5 hours,science-related,not-science-related
+"Science, Math, and Technology",nan,Developer,1-5 hours,science-related,None
+Arts and Humanities,nan,Analyst,20-30 hours,not-science-related,None
+Arts and Humanities,Arts and Humanities,Designer,5-10 hours,not-science-related,not-science-related
+"Science, Math, and Technology",Social Sciences,Analyst,Less than 1 hour,science-related,science-related
+Social Sciences,nan,Analyst,1-5 hours,science-related,None
+Business,nan,Analyst,Less than 1 hour,not-science-related,None
+"Science, Math, and Technology",nan,Analyst,1-5 hours,science-related,None
+Arts and Humanities,Public and Social Services,Analyst,1-5 hours,not-science-related,not-science-related
+"Science, Math, and Technology","Science, Math, and Technology",Developer,Less than 1 hour,science-related,science-related
+"Science, Math, and Technology",nan,Analyst,5-10 hours,science-related,None
+Social Sciences,nan,Analyst,1-5 hours,science-related,None
+"Science, Math, and Technology","Science, Math, and Technology",Journalist,1-5 hours,science-related,science-related
+"Science, Math, and Technology",nan,Analyst,1-5 hours,science-related,None
+Multi-/Interdisciplinary Studies,nan,Designer,5-10 hours,science-related,None
+Multi-/Interdisciplinary Studies,nan,Analyst,10-20 hours,science-related,None
+"Science, Math, and Technology","Science, Math, and Technology",Analyst,5-10 hours,science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Analyst,1-5 hours,science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Analyst,1-5 hours,science-related,science-related
+"Science, Math, and Technology",Multi-/Interdisciplinary Studies,Analyst,10-20 hours,science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Designer,1-5 hours,science-related,science-related
+"Science, Math, and Technology",Business,Leadership,1-5 hours,science-related,not-science-related
+Arts and Humanities,nan,Designer,1-5 hours,not-science-related,None
+Social Sciences,"Science, Math, and Technology",Analyst,1-5 hours,science-related,science-related
+Arts and Humanities,Business,Designer,1-5 hours,not-science-related,not-science-related
+Business,Business,Analyst,5-10 hours,not-science-related,not-science-related
+Business,nan,Developer,1-5 hours,not-science-related,None
+Social Sciences,nan,Analyst,1-5 hours,science-related,None
+"Science, Math, and Technology",nan,Analyst,5-10 hours,science-related,None
+"Science, Math, and Technology",nan,Scientist,1-5 hours,science-related,None
+Business,Business,Analyst,Less than 1 hour,not-science-related,not-science-related
+Arts and Humanities,Arts and Humanities,Leadership,1-5 hours,not-science-related,not-science-related
+"Science, Math, and Technology","Science, Math, and Technology",Scientist,5-10 hours,science-related,science-related
+Arts and Humanities,Arts and Humanities,Analyst,1-5 hours,not-science-related,not-science-related
+Social Sciences,nan,Designer,1-5 hours,science-related,None
+Arts and Humanities,Arts and Humanities,Designer,1-5 hours,not-science-related,not-science-related
+"Science, Math, and Technology","Science, Math, and Technology",Analyst,1-5 hours,science-related,science-related
+Social Sciences,Social Sciences,Analyst,1-5 hours,science-related,science-related
+Arts and Humanities,Arts and Humanities,Analyst,10-20 hours,not-science-related,not-science-related
+"Science, Math, and Technology","Science, Math, and Technology",Leadership,1-5 hours,science-related,science-related
+Arts and Humanities,nan,Engineer,10-20 hours,not-science-related,None
+Social Sciences,Social Sciences,Analyst,Less than 1 hour,science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Engineer,5-10 hours,science-related,science-related
+"Science, Math, and Technology",nan,Analyst,Less than 1 hour,science-related,None
+"Science, Math, and Technology",nan,Designer,5-10 hours,science-related,None
+Business,nan,Analyst,1-5 hours,not-science-related,None
+"Science, Math, and Technology","Science, Math, and Technology",Scientist,Less than 1 hour,science-related,science-related
+Arts and Humanities,"Science, Math, and Technology",Engineer,5-10 hours,not-science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Scientist,20-30 hours,science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Developer,1-5 hours,science-related,science-related
+"Science, Math, and Technology",nan,Developer,5-10 hours,science-related,None
+Social Sciences,Social Sciences,Scientist,1-5 hours,science-related,science-related
+Business,nan,Developer,5-10 hours,not-science-related,None
+"Science, Math, and Technology",nan,Analyst,1-5 hours,science-related,None
+"Science, Math, and Technology",nan,Engineer,Less than 1 hour,science-related,None
+Arts and Humanities,Social Sciences,Analyst,1-5 hours,not-science-related,science-related
+"Science, Math, and Technology",nan,Analyst,5-10 hours,science-related,None
+"Science, Math, and Technology","Science, Math, and Technology",Leadership,5-10 hours,science-related,science-related
+"Science, Math, and Technology",nan,Engineer,5-10 hours,science-related,None
+Social Sciences,Social Sciences,Scientist,1-5 hours,science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Scientist,1-5 hours,science-related,science-related
+Social Sciences,Multi-/Interdisciplinary Studies,Journalist,1-5 hours,science-related,science-related
+Social Sciences,Social Sciences,Analyst,1-5 hours,science-related,science-related
+Business,nan,Developer,Less than 1 hour,not-science-related,None
+Arts and Humanities,"Science, Math, and Technology",Engineer,1-5 hours,not-science-related,science-related
+Social Sciences,nan,Analyst,5-10 hours,science-related,None
+"Science, Math, and Technology",nan,Journalist,1-5 hours,science-related,None
+"Science, Math, and Technology",Arts and Humanities,Designer,5-10 hours,science-related,not-science-related
+"Science, Math, and Technology",nan,Analyst,1-5 hours,science-related,None
+"Science, Math, and Technology",nan,Analyst,5-10 hours,science-related,None
+Health and Medicine,Health and Medicine,Developer,1-5 hours,science-related,science-related
+Social Sciences,"Science, Math, and Technology",Engineer,30-40 hours,science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Scientist,Less than 1 hour,science-related,science-related
+Business,Business,Developer,1-5 hours,not-science-related,not-science-related
+"Science, Math, and Technology","Science, Math, and Technology",Developer,1-5 hours,science-related,science-related
+Social Sciences,Business,Developer,1-5 hours,science-related,not-science-related
+"Science, Math, and Technology","Science, Math, and Technology",Engineer,1-5 hours,science-related,science-related
+"Science, Math, and Technology","Science, Math, and Technology",Analyst,Less than 1 hour,science-related,science-related
+Arts and Humanities,nan,Developer,Less than 1 hour,not-science-related,None
+"Science, Math, and Technology","Science, Math, and Technology",Analyst,Less than 1 hour,science-related,science-related
