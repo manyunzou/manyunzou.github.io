@@ -39,7 +39,6 @@ function buildGrid(data) {
         .attr("height", 4)
         .attr("x", 0)
         .attr("y", 0)
-        // .attr("filll","#000");
         .attr("fill","#DDC6B6");
         // .attr("stroke","#000");
 
@@ -53,7 +52,13 @@ function buildGrid(data) {
     trianglebox.append('g')
         .attr('class', 'topicTriangles')
         .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
-        // .attr("transform","rotate(180 0 0)")
+        // add hyperlinks
+        .append("a")
+        .attr("xlink:href", function(d){ 
+            return d.link; 
+        })
+        .attr("target","_blank")
+        // end of hyperlinks
         .append('path')
         .attr('d', d => 'M ' + xScale(80) + ' ' + yScale(30) + ' L ' + xScale(60) + ' ' + yScale(60) + ' L ' + xScale(40) + ' ' + yScale(30) + ' Z')
         .style("fill",function(d){
@@ -79,6 +84,14 @@ function buildGrid(data) {
     trianglebox.append('g')
         .attr('class', 'designTriangles')
         .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+        // add hyperlinks
+        .append("a")
+        .attr("xlink:href", function(d){ 
+            return d.link; 
+        })
+        .attr("target","_blank")
+        // end of hyperlinks
+        .attr("filll","#000")
         .append('path')
         .attr('d', d => 'M ' + xScale(80) + ' ' + yScale(30) + ' L ' + xScale(60) + ' ' + yScale(0) + ' L ' + xScale(40) + ' ' + yScale(30) + ' Z')
         // .style('fill', '#DDC6B6')
@@ -97,6 +110,13 @@ function buildGrid(data) {
     trianglebox.append('g')
         .attr('class', 'analysisTriangles')
         .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+        // add hyperlinks
+        .append("a")
+        .attr("xlink:href", function(d){ 
+            return d.link; 
+        })
+        .attr("target","_blank")
+        // end of hyperlinks
         .append('path')
         .attr('d', d => 'M ' + xScale(60) + ' ' + yScale(60) + ' L ' + xScale(20) + ' ' + yScale(60) + ' L ' + xScale(40) + ' ' + yScale(30) + ' Z')
         .style('fill', function(d){
@@ -113,6 +133,13 @@ function buildGrid(data) {
     trianglebox.append('g')
         .attr('class', 'frontTriangles')
         .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+        // add hyperlinks
+        .append("a")
+        .attr("xlink:href", function(d){ 
+            return d.link; 
+        })
+        .attr("target","_blank")
+        // end of hyperlinks
         .append('path')
         .attr('d', d => 'M ' + xScale(100) + ' ' + yScale(60) + ' L ' + xScale(60) + ' ' + yScale(60) + ' L ' + xScale(80) + ' ' + yScale(30) + ' Z')
         .style('fill', function(d){
@@ -138,6 +165,7 @@ function buildGrid(data) {
         .text(function(d){            
             return d.year;
         });
+
 
     // add mouseover effect
     var tooltip = d3.select(".triangle-box")
