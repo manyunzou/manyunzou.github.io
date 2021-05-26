@@ -146,6 +146,7 @@ a:hover {
   
   .titleImage {
     width: 130px;
+    margin-left:10px;
   }
 }
 
@@ -167,12 +168,13 @@ a:hover {
   }
 
   .legendImage {
-    width: 200px;
+    width: 130px;
     margin-left:30px;
   }
   
   .titleImage {
-    width: 200px;
+    width: 130px;
+    margin-left:20px;
   }
 
 }
