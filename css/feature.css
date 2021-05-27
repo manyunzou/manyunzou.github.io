@@ -98,3 +98,21 @@
     }
 
   }
+
+
+  @media screen and (max-width: 991px) {
+    .feature-wrap {
+        padding-left: 0px;
+    }
+
+    .feature-wrap span{
+        align-self: flex-end;
+        margin-top: 20px
+    }
+
+    .feature-title {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+  }
