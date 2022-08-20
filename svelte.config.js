@@ -23,14 +23,9 @@ const config = {
     kit: {
         adapter: adapter({
             pages: "docs",
-            assets: "docs"
+						assets: "docs",
+						fallback: "index.html",
         }),
-        paths: {
-            // change below to your repo name
-            base: dev ? "" : "manyunzou/manyunzou.github.io",
-        },
-        // hydrate the <div id="svelte"> element in src/app.html
-        target: "#svelte"
     }
 };
 
