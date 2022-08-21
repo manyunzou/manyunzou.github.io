@@ -19,11 +19,10 @@
     <h2>Contact</h2>
     <div class="row contact-container">
         <div class="col-md-8">
-            <span class="social-button"><a href="https://twitter.com/Manyun_Zou">Twitter</a></span>
-            <span class="social-button"><a href="https://www.linkedin.com/in/manyun-mandy-zou-09580bb5/">LinkedIn</a></span>
-            <span class="social-button"><a href="mailto:manyunzou@gmail.com">Email</a></span>
+            <span class="social-button"><img src="/assets/icons/fake-twitter.png" width="20px" style="margin-right: 5px"><a href="https://twitter.com/Manyun_Zou">Twitter</a></span>
+            <span class="social-button"><img src="/assets/icons/fake-linkedin.png" width="20px" style="margin-right: 5px"><a href="https://www.linkedin.com/in/manyun-mandy-zou-09580bb5/">LinkedIn</a></span>
+            <span class="social-button"><img src="/assets/icons/fake-email.png" width="20px" style="margin-right: 5px"><a href="mailto:manyunzou@gmail.com">Email</a></span>
         </div>
-
     </div>
 
 
