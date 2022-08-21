@@ -57,6 +57,7 @@
     @media screen and (min-width: 270px) {
        #works {
            margin-left: 0px;
+           padding-left: 0px;
        }
     }
 
@@ -69,6 +70,7 @@
         #works {
             width: 100%;
             margin-left: 65px;
+            padding-left: 0px;
         }
 
     }
@@ -80,7 +82,8 @@
 
         #works {
             width: 100%;
-            margin-left: 75px;
+            margin-left: 65px;
+            padding-left: 10px;
         }
 
     }

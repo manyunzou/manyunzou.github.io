@@ -6,9 +6,15 @@
     const data = getContext("data");
 </script>
 
-
+<div class="container legend-box">
+    <div class="row">
+        <span class="col-6 col-sm-2"><img src="/assets/icons/english.png" width="15px">English</span>
+        
+        <span class="col-6 col-sm-2 legend02"><img src="/assets/icons/chinese.png" width="15px" style="margin-left: 15px">Chinese</span>
+    </div>
+</div>
 <div class="container featureBody">
-	{#each data as { no, name, date, process, url }, i}
+	{#each data as { no, name, date, process, url,language }, i}
 		<div class="row featureRow">
 			<div class="col-md-">
 				<a href={url} target="_blank">
@@ -18,6 +24,11 @@
 			<div class="col feature-wrap">
 				<span style="margin-bottom: 20px">
 					<a class="feature-title" href={url} target="_blank">{name}</a>
+                    {#if language == "eng"}
+                        <img src="/assets/icons/english.png" alt="english-icon" width="15px">
+                    {:else}
+                        <img src="/assets/icons/chinese.png" alt="chinese-icon" width="15px">
+                    {/if}
 				<br/>
 					<span class="feature-text">{date}</span>
 				<br/>
@@ -35,14 +46,6 @@
     body content
 */
 
-.featureBody {
-    margin-top: 30px;
-    margin-bottom: 100px;
-	margin-left: -20px;
-	padding-left: 0px;
-    font-size: 15px;
-    line-height: 22px;
-  }
 
 /* 
     feature rows 
@@ -85,6 +88,10 @@
 
 
 @media screen and (min-width: 270px) {
+    .legend02 {
+        padding-left: 0px;
+    }
+
     .feature-wrap {
         padding-left: 0px;
 		margin-left: 0px;
@@ -102,8 +109,8 @@
 
     .featureRow{
         width: 100%;
-        margin-left: 20px;
-        margin-top: 40px;
+        margin-left: 0px;
+        margin-top: 10px;
     }
 
 }
@@ -111,6 +118,16 @@
 
 
 @media screen and (min-width: 481px) {
+    .legend-box {
+        margin-top: 40px;
+        margin-left: -65px;
+    }
+
+    .featureRow {
+        margin-left: 20px;
+    }
+
+
 	.col{
 		flex-basis: auto;
 	}
@@ -137,6 +154,15 @@
 
 
 @media screen and (min-width: 769px) {
+    .legend-box {
+        margin-top: 40px;
+        margin-left: -65px;
+    }
+
+    .featureRow {
+        margin-left: 20px;
+    }
+
     .feature-wrap {
         padding-left: 0px;
 		margin-left: 0px;
@@ -155,11 +181,24 @@
 }
 
 @media screen and ( min-width: 1025px ){
-	.col{
-		flex-basis: 0;
-	}
 
-	 .feature-wrap {
+    .legend-box {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+
+    .featureBody {
+        margin-top: -60px;
+        margin-bottom: 100px;
+        margin-left: -20px;
+        padding-left: 0px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+
+	.feature-wrap {
 		 margin-left: 20px;
     }
 
@@ -177,6 +216,9 @@
         margin-left: -8px;
     }
 
+    .col{
+		flex-basis: 0;
+	}
 
 }
 

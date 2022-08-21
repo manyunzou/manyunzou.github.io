@@ -2,7 +2,7 @@
 
 </script>
 
-<div class="container">
+<div class="container header-container">
     <header class="blog-header py-3">
         <div class="row flex-nowrap justify-content-between align-items-center">
             <div class="row headerRow">
@@ -113,6 +113,10 @@
 
 
     @media screen and (min-width: 767px) {
+        .header-container {
+            margin-left: 10px;
+        }
+
         .blog-header {
             /* width: 100%; */
             line-height: 1;
@@ -168,9 +172,4 @@
         
     }
 
-
-
-
 </style>
-
-
