@@ -1,5 +1,4 @@
 <script>
-    console.log("hello this is quote")
     import { getContext, onMount } from "svelte";
     import * as d3 from 'd3';
 
@@ -18,7 +17,7 @@
 		<div class="row featureRow">
 			<div class="col-md-">
 				<a href={url} target="_blank">
-					<img class="img-fluid" src="/assets/features/{no}.png" alt="image">
+					<img class="img-fluid" src="/assets/features/{no}.png" alt="image" width="300">
 				</a>
 			</div>
 			<div class="col feature-wrap">

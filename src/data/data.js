@@ -1,5 +1,13 @@
 export default [
     {
+        "no": "0",
+        "name": "The Big [Censored] Theory",
+        "date": "Aug 2022",
+        "process": "Pitch - Research - Data Collection and Analysis - Writing - UX Design",
+        "url": "https://pudding.cool/2022/08/censorship/",
+        "language":"eng"
+    },
+    {
         "no": "1",
         "name": "How Chinese citizens take advantage of the FOIA",
         "date": "April 2019",
