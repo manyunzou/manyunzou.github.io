@@ -9,7 +9,7 @@ export default [
     },
     {
         "no": "1",
-        "name": "How Chinese citizens take advantage of the FOIA",
+        "name": "How Chinese FOIA failed the citizens' requests",
         "date": "April 2019",
         "process": "Pitch - Research - Interview - Data Clean and Analysis - Writing",
         "url": "https://www.thepaper.cn/newsDetail_forward_3248133",
