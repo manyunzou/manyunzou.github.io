@@ -20,6 +20,10 @@ export default [
         "detail": "2021 Shortlist",
     },
     {
+        "award": "SND",
+        "detail": "2021 Bronze",
+    },
+    {
         "award": "China Data Journalism Awards",
         "detail": "2021 Use of Data for Public Interests",
     },
