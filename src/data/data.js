@@ -25,6 +25,14 @@ export default [
     },
     {
         "no": "3",
+        "name": "Landmark Trial In China’s #MeToo Evolution Reaches Settlement, Chinese Newspapers Fail to Pay Attention",
+        "date": "Oct 2022",
+        "process": "Pitch - Research - Data Clean and Analysis - Data Visualization - Writing",
+        "url": "https://gobserver.net/5334/commentary/landmark-trial-in-chinas-metoo-evolution-reaches-settlement-chinese-newspapers-fail-to-pay-attention/",
+        "language":"eng"
+    },
+    {
+        "no": "4",
         "name": "China’s female civil service applicants ask: where are our seats at the table?",
         "date": "Nov 2020",
         "process": "Pitch - Research - Interviewing - Data Clean and Analysis - Data Visualization - Writing",
@@ -32,7 +40,7 @@ export default [
         "language":"eng"
     },
     {
-        "no": "4",
+        "no": "5",
         "name": "How I Matched Your Mother in the Market",
         "date": "Aug 2018",
         "process": "Interview - Research - Data Collection and Analysis - UX Design - Project Management - Writing",
@@ -40,7 +48,7 @@ export default [
         "language":"chn"
     },
     {
-        "no": "5",
+        "no": "6",
         "name": "What we need to know about the personal income tax reform",
         "date": "Jan 2019",
         "process": "Pitch - Research - Interview - Data Analysis - UX/UI Design - Front-End Development - Writing",
@@ -48,7 +56,7 @@ export default [
         "language":"chn"
     },
     {
-        "no": "6",
+        "no": "7",
         "name": "Chinese Apps are Removing Search Function for Teenagers",
         "date": "Aug 2021",
         "process": "Pitch - Research - Web Scraping - Data Clean and Analysis - Writing",
@@ -56,7 +64,7 @@ export default [
         "language":"chn"
     },
     {
-        "no": "7",
+        "no": "8",
         "name": "New-Energy Billionaires Race Up China’s Rich List",
         "date": "Oct 2021",
         "process": "Pitch - Data Clean and Analysis - Data Visualization - Writing",
@@ -64,7 +72,7 @@ export default [
         "language":"eng"
     },
     {
-        "no": "8",
+        "no": "9",
         "name": "China’s 3,500-Post Edit War Over Feminism",
         "date": "March 2021",
         "process": "Pitch - Research - Web Scraping - Data Clean and Analysis - Writing",
@@ -72,7 +80,7 @@ export default [
         "language":"eng"
     },
     {
-        "no": "9",
+        "no": "10",
         "name": "China's Coal Miners Pile Up Record $111 Billion in Profit",
         "date": "Feb 2022",
         "process": "Pitch - Data Clean and Analysis - Data Visualization - Writing",
@@ -80,7 +88,7 @@ export default [
         "language":"eng"
     },
     {
-        "no": "10",
+        "no": "11",
         "name": "Movie Ticket Sales Suffer Second-Worst Qingming Holiday Performance in a Decade",
         "date": "April 2022",
         "process": "Pitch - Data Clean and Analysis - Data Visualization - Front-end Development - Writing",
@@ -88,7 +96,7 @@ export default [
         "language":"eng"
     },
     {
-        "no": "11",
+        "no": "12",
         "name": "Internet, What is Love?",
         "date": "Aug 2019",
         "process": "Pitch - Research - Web Scraping - Data Clean and Analysis - UX Design - Writing",
