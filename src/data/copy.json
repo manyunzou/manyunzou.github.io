@@ -7,8 +7,8 @@
         {"id":"intro",
             "chunks":[
                 {"type":"p", "text":"Greetings, this is Mandy!"},
-                {"type":"p", "text": "I am a <strong>data storyteller</strong> with nearly five years of newsroom experience, currently a grad student majoring in Applied Quantitative Methods and Social Analysis in Boston, MA."},
-                {"type":"p", "text": "Here are some of my works, among which have won or been shortlisted for awards including the Sigma Awards, the Society for News Design, and Information is Beautiful Awards."}
+                {"type":"p", "text": "Here are some of my works, which have won or been shortlisted for awards including the Sigma Awards, the Society for News Design, and Information is Beautiful Awards."},
+                {"type":"p", "text": "I am a <strong>data storyteller</strong> with nearly five years of newsroom experience, currently a grad student majoring in Applied Quantitative Methods and Social Analysis."}
                 ]
         },
         {"id":"works",
