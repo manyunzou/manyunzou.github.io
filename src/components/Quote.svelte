@@ -13,7 +13,7 @@
     </div>
 </div>
 <div class="container featureBody">
-	{#each data as { no, name, date, process, url,language }, i}
+	{#each data as { no, name, bref, url,language }, i}
 		<div class="row featureRow">
 			<div class="col-md-">
 				<a href={url} target="_blank">
@@ -21,7 +21,7 @@
 				</a>
 			</div>
 			<div class="col feature-wrap">
-				<span style="margin-bottom: 20px">
+				<span style="margin-bottom: 20px; margin-top:0px">
 					<a class="feature-title" href={url} target="_blank">{name}</a>
                     {#if language == "eng"}
                         <img src="/assets/icons/english.png" alt="english-icon" width="15px">
@@ -29,9 +29,9 @@
                         <img src="/assets/icons/chinese.png" alt="chinese-icon" width="15px">
                     {/if}
 				<br/>
-					<span class="feature-text">{date}</span>
-				<br/>
-					<span class="feature-text">{process}</span>
+					<!-- <span class="feature-text">{date}</span> -->
+				<!-- <br/> -->
+					<span class="feature-text">{bref}</span>
 				</span>
 			</div>
 		</div>
