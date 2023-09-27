@@ -13,7 +13,7 @@ export default [
         "name": "How Chinese FOIA failed the citizens' requests",
         // "date": "April 2019",
         // "process": "Pitch - Research - Interview - Data Clean and Analysis - Writing",
-        "bref": "I was surprised to learn that China has a FOIA system too. Since there are no public records of the requests, I spent four months analyzing more than 4,000 court case files to figure out what Chinese citizens were asking for, and why or why not local governments hand those documents to them.",
+        "bref": "I was surprised to learn that China has a FOIA system too. Since there are no public records of the requests, I spent four months analyzing more than 4,000 court case files to figure out what Chinese citizens were asking for, and why local governments rejected handing those documents to them.",
         "url": "https://www.thepaper.cn/newsDetail_forward_3248133",
         "language":"chn"
     },
@@ -22,7 +22,7 @@ export default [
         "name": "How the coronavirus spread in China, explained",
         // "date": "Feb 2020",
         // "process": "Pitch - Research - Data Collection, Clean and Analysis - Writing",
-        "bref": "This is one of the first data pieces to uncover connections among individual cases at the early stage of Covid-19 breakout, using case data published by local governments in the country. Sadly, many local governments stopped disclosing case details after a while.",
+        "bref": "This is one of the first data pieces to uncover connections among individual cases at an early stage of the Covid-19 breakout, using case data published by local governments in the country. Sadly, many local governments stopped disclosing case details after a while.",
         "url": "https://www.sixthtone.com/news/1005173/four-charts-that-help-explain-how-the-coronavirus-spread",
         "language":"eng"
     },
@@ -31,7 +31,7 @@ export default [
         "name": "Landmark Trial In China’s #MeToo Evolution Reaches Settlement, Chinese Newspapers Fail to Pay Attention",
         // "date": "Oct 2022",
         // "process": "Pitch - Research - Data Clean and Analysis - Data Visualization - Writing",
-        "bref": "As a feminist, I always wonder how the mass media helped normalize the patriarchy. Naturally, when a #MeToo landmark case happened in China, I analyzed how different media reacted to that– while international media closely followed up with the issue, almost all the major mainland China media stayed silent.",
+        "bref": "As a feminist, I always wonder how the mass media helps normalize the patriarchy. Naturally, when a #MeToo landmark case happened in China, I analyzed how different media reacted to that– while international media closely followed up with the issue, almost all the major mainland Chinese media stayed silent.",
         "url": "https://gobserver.net/5334/commentary/landmark-trial-in-chinas-metoo-evolution-reaches-settlement-chinese-newspapers-fail-to-pay-attention/",
         "language":"eng"
     },
@@ -49,7 +49,7 @@ export default [
         "name": "How I Matched Your Mother in the Market",
         // "date": "Aug 2018",
         // "process": "Interview - Research - Data Collection and Analysis - UX Design - Project Management - Writing",
-        "bref": "Shanghai's marriage market is where local parents gather together to find their children a partner. It is as interesting and intimidating as it sounds. With 874 blind date postings we collected from the market, we discovered the pattern behind the Chinese matchmaking market, and what kind of marriage anxiety people are going through.",
+        "bref": "Shanghai's marriage market is where local parents gather together to find their children a partner. It is as interesting and intimidating as it sounds. With 874 blind date postings we collected there, we discovered the pattern behind the Chinese matchmaking market, and what kind of marriage anxiety people are going through.",
         "url": "https://h5.thepaper.cn/html/zt/2018/08/seekinglove/index.html",
         "language":"chn"
     },
@@ -58,7 +58,7 @@ export default [
         "name": "What we need to know about the personal income tax reform",
         // "date": "Jan 2019",
         // "process": "Pitch - Research - Interview - Data Analysis - UX/UI Design - Front-End Development - Writing",
-        "bref": "Tax reform is hard for common people to interpret. Therefore, after China announced the new policy, we built up a tool to help readers understand how the reform would affect their income, and how it would affect different groups of people, based on their company size, educational degree, and more.",
+        "bref": "Tax reform is hard for common people to interpret. Therefore, after China announced their new policy, we built up a tool to help readers understand how the reform would affect their income, and how it would affect different groups of people based on their company types, educational degrees, and more.",
         "url": "https://h5.thepaper.cn/html/zt/2019/01/tax/index.html",
         "language":"chn"
     },
