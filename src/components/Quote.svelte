@@ -13,7 +13,7 @@
     </div>
 </div>
 <div class="container featureBody">
-	{#each data as { no, name, bref, url,language }, i}
+	{#each data as { no, name, bref, url,language, python,js, excel, illustrator }, i}
 		<div class="row featureRow">
 			<div class="col-md-">
 				<a href={url} target="_blank">
@@ -31,7 +31,21 @@
 				<br/>
 					<!-- <span class="feature-text">{date}</span> -->
 				<!-- <br/> -->
-					<span class="feature-text">{bref}</span>
+				<span class="feature-text">{bref}</span>
+                <br/>
+                {#if python == "y"}
+                    <img src="/assets/icons/icon-python.png" alt="python-icon" width="70px" margin-top="10px">
+                {/if}
+                {#if excel == "y"}
+                    <img src="/assets/icons/icon-excel.png" alt="python-icon" width="70px" margin-top="10px">
+                {/if}
+                {#if js == "y"}
+                    <img src="/assets/icons/icon-js.png" alt="python-icon" width="70px" margin-top="10px">
+                {/if}
+                {#if illustrator=="y"}
+                    <img src="/assets/icons/icon-illustrator.png" alt="python-icon" width="70px" margin-top="10px">                                     
+                {/if}
+				<br/>
 				</span>
 			</div>
 		</div>
