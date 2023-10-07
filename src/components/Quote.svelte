@@ -13,7 +13,7 @@
     </div>
 </div>
 <div class="container featureBody">
-	{#each data as { no, name, bref, url,language, python,js, excel, illustrator }, i}
+	{#each data as { no, name, bref, url, process, language, python,js, excel, illustrator }, i}
 		<div class="row featureRow">
 			<div class="col-md-">
 				<a href={url} target="_blank">
@@ -32,6 +32,8 @@
 					<!-- <span class="feature-text">{date}</span> -->
 				<!-- <br/> -->
 				<span class="feature-text">{bref}</span>
+                <br/>
+                <span class="feature-roles" style="font-style:italic">{process}</span>
                 <br/>
                 {#if python == "y"}
                     <img src="/assets/icons/icon-python.png" alt="python-icon" width="70px" margin-top="10px">
@@ -64,7 +66,6 @@
     feature rows 
 */
 
-
 .featureRow .col-md- img {
     border: 2px solid #021a40;
 }
@@ -92,6 +93,10 @@
 
 .feature-text {
 	color: var(--gray-dark);
+}
+
+.feature-roles {
+    color: var(--gray);
 }
 
 
