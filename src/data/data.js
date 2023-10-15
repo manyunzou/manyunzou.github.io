@@ -65,13 +65,12 @@ export default [
     },
     {
         "no": "6",
-        "name": "New-Energy Billionaires Race Up China’s Rich List",
+        "name": "Land Use and Land Value in Boston",
         // "date": "Oct 2021",
-        "bref": "China’s new-energy sector billionaires reached new heights on the 2021 Hurun China Rich List, buoyed in equal measure by the country’s ambitious green goals and the fading fortunes of rivals exposed to real estate and internet-related sectors. The slope chart accentuates the changes among sectors more clearly.",
-        "url": "https://www.caixinglobal.com/2021-10-28/new-energy-billionaires-race-up-chinas-rich-list-101793059.html",
-        "process": "Pitch - Data Clean and Analysis - Data Visualization - Writing",
+        "bref": "This is an infographic highlighting major findings from a research project at Boston Planning & Development Agency– in Boston, the highest assessed value is concentrated in neighborhoods close to Downtown, as many of these parcels are commercial or mixed-use.",
+        "url": "https://www.bostonplans.org/getattachment/24f7be66-a95b-45d9-a9c5-5af53e210790",
+        "process": "Data Visualization & Mapping - Writing",
         "language":"eng",
-        "python":"y",
         "illustrator":"y"
     },
     {
