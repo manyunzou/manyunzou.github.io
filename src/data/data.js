@@ -47,9 +47,10 @@ export default [
         "name": "How I Matched Your Mother in the Market",
         // "date": "Aug 2018",
         "bref": "Shanghai's marriage market is where local parents gather together to find their children a partner. It is as interesting and intimidating as it sounds. With 874 blind date postings we collected there, we discovered the pattern behind the Chinese matchmaking market, and what kind of marriage anxiety people are going through.",
-        "url": "https://h5.thepaper.cn/html/zt/2018/08/seekinglove/index.html",
+        "url": "https://interaction.sixthtone.com/feature/2018/Shanghai-Marriage-Market-Data/index.html",
         "process": "Interview - Research - Data Collection and Analysis - UX Design - Project Management - Writing",
-        "language":"chn"
+        "language":"eng",
+        "js":"y"
     },
     {
         "no": "5",
