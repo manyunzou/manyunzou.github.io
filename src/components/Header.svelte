@@ -10,9 +10,6 @@
                     <a class="header-title-link" href="https://manyunzou.github.io">Manyun Zou</a>
                 </span>
                 <div class="col header-col">
-                    <a class="nav-item" href="/Resume">
-                        Resume
-                    </a>
                     <a class="nav-item" href="https://triviaonly.github.io/" target="_blank" style="margin-left:20px">
                         Side Projects
                     </a>
