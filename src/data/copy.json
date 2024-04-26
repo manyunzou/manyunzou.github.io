@@ -9,7 +9,7 @@
                 {"type":"p", "text":"Greetings, this is Mandy!"},
                 {"type":"p", "text": "Here are some of my works, which have won or been shortlisted for awards including the Sigma Awards, the Society for News Design, and Information is Beautiful Awards."},
                 {"type":"p", "text": "I am a <strong>data storyteller</strong> with nearly five years of newsroom experience, also a recent grad majoring in Applied Quantitative Methods and Social Analysis."},
-                {"type":"p", "text": "Check out my code examples on <a href='https://github.com/manyunzou'>Github</a>."}
+                {"type":"p", "text": "Here are some of my best data stories. Check out my Python and R code examples on <a href='https://github.com/manyunzou'>Github</a>."}
                 ]
         },
         {"id":"works",
