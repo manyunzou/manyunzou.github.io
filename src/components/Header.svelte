@@ -15,11 +15,6 @@
                         Side Projects
                     </a>
                 </div>
-                <div class="col header-col">
-                    <a class="nav-item" href="{base}/Taylor" target="_blank" style="margin-left:20px">
-                        New project
-                    </a>
-                </div>
             </div>
         </div>
     </header>
