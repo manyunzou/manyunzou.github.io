@@ -1,18 +1,15 @@
 <script>
   /**
-	Scrollytelling component from Russell Goldenberg 
-	https://twitter.com/codenberg/status/1432774653139984387
-	
    * This component manages which item is most in view for scroll triggering
    * example:
-   * <Scroll
+   * <Scrolly
    * 	bind:value={scrollIndex}
    * >
    * **items here**
-   * </Scroll>
+   * </Scrolly>
    *
    * optional params with defaults
-   * <Scroll root={null} top={0} bottom={0} increments={100}>
+   * <Scrolly root={null} top={0} bottom={0} increments={100}>
    */
   import { onMount } from "svelte";
   export let root = null;
@@ -46,7 +43,7 @@
     }
 
     if (maxRatio > 0) value = maxIndex;
-		else value = undefined;
+    else value = undefined;
   };
 
   const createObserver = (node, index) => {
