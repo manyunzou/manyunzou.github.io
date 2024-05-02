@@ -15,8 +15,8 @@
                     </a>
                 </div>
                 <div class="col header-col">
-                    <a class="nav-item" href="/Resume.svelte" target="_blank" style="margin-left:20px">
-                        Resume
+                    <a class="nav-item" href="/Taylor" target="_blank" style="margin-left:20px">
+                        New project
                     </a>
                 </div>
             </div>
