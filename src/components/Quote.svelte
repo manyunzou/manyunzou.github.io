@@ -13,7 +13,7 @@
     </div>
 </div>
 <div class="container featureBody">
-	{#each data as { no, name, date, process, url,language }, i}
+	{#each data as { no, name, bref, url, process, language, python,js, excel, illustrator }, i}
 		<div class="row featureRow">
 			<div class="col-md-">
 				<a href={url} target="_blank">
@@ -21,7 +21,7 @@
 				</a>
 			</div>
 			<div class="col feature-wrap">
-				<span style="margin-bottom: 20px">
+				<span style="margin-bottom: 20px; margin-top:0px">
 					<a class="feature-title" href={url} target="_blank">{name}</a>
                     {#if language == "eng"}
                         <img src="/assets/icons/english.png" alt="english-icon" width="15px">
@@ -29,9 +29,25 @@
                         <img src="/assets/icons/chinese.png" alt="chinese-icon" width="15px">
                     {/if}
 				<br/>
-					<span class="feature-text">{date}</span>
+					<!-- <span class="feature-text">{date}</span> -->
+				<!-- <br/> -->
+				<span class="feature-text">{bref}</span>
+                <br/>
+                <span class="feature-roles" style="font-style:italic">{process}</span>
+                <br/>
+                {#if python == "y"}
+                    <img src="/assets/icons/icon-python.png" alt="python-icon" width="70px" margin-top="10px">
+                {/if}
+                {#if excel == "y"}
+                    <img src="/assets/icons/icon-excel.png" alt="python-icon" width="70px" margin-top="10px">
+                {/if}
+                {#if js == "y"}
+                    <img src="/assets/icons/icon-js.png" alt="python-icon" width="70px" margin-top="10px">
+                {/if}
+                {#if illustrator=="y"}
+                    <img src="/assets/icons/icon-illustrator.png" alt="python-icon" width="70px" margin-top="10px">                                     
+                {/if}
 				<br/>
-					<span class="feature-text">{process}</span>
 				</span>
 			</div>
 		</div>
@@ -49,7 +65,6 @@
 /* 
     feature rows 
 */
-
 
 .featureRow .col-md- img {
     border: 2px solid #021a40;
@@ -78,6 +93,10 @@
 
 .feature-text {
 	color: var(--gray-dark);
+}
+
+.feature-roles {
+    color: var(--gray);
 }
 
 

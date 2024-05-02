@@ -13,7 +13,7 @@
 // export default config;
 
 import { readFileSync } from "fs";
-import adapter from "@sveltejs/adapter-static"; 
+import adapter from "@sveltejs/adapter-static";
 
 const { subdirectory } = JSON.parse(readFileSync("package.json", "utf8"));
 const dev = process.env.NODE_ENV === "development";
@@ -36,5 +36,6 @@ const config = {
 				}
     }
 };
+
 
 export default config;
