@@ -14,6 +14,11 @@
                         Side Projects
                     </a>
                 </div>
+                <div class="col header-col">
+                    <a class="nav-item" href="/Resume.svelte" target="_blank" style="margin-left:20px">
+                        Resume
+                    </a>
+                </div>
             </div>
         </div>
     </header>
