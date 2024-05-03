@@ -1,6 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
+<<<<<<< HEAD
     "file": "_app/immutable/start-f1434e65.js",
+=======
+    "file": "_app/immutable/start-2bb736c1.js",
+>>>>>>> parent of b418a8c... update page
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -47,11 +51,16 @@
     ]
   },
   "src/routes/Resume.svelte": {
+<<<<<<< HEAD
     "file": "_app/immutable/pages/Resume.svelte-212890e4.js",
+=======
+    "file": "_app/immutable/pages/Resume.svelte-6385458c.js",
+>>>>>>> parent of b418a8c... update page
     "src": "src/routes/Resume.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
+<<<<<<< HEAD
       "_index-fa6a6bc5.js",
       "_copy-29abe5c2.js",
       "_transform-1d249b3e.js",
@@ -67,20 +76,33 @@
       "_index-fa6a6bc5.js",
       "_index-94d45026.js",
       "_transform-1d249b3e.js"
+=======
+      "_index-6108c67f.js",
+      "_copy-b76f1d3e.js"
+>>>>>>> parent of b418a8c... update page
     ],
     "css": [
       "_app/immutable/assets/Taylor-9017b2aa.css"
     ]
   },
   "src/routes/index.svelte": {
+<<<<<<< HEAD
     "file": "_app/immutable/pages/index.svelte-f06a475e.js",
+=======
+    "file": "_app/immutable/pages/index.svelte-e747df73.js",
+>>>>>>> parent of b418a8c... update page
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
+<<<<<<< HEAD
       "_index-fa6a6bc5.js",
       "_copy-29abe5c2.js",
       "_transform-1d249b3e.js"
+=======
+      "_index-6108c67f.js",
+      "_copy-b76f1d3e.js"
+>>>>>>> parent of b418a8c... update page
     ]
   },
   "_index-fa6a6bc5.js": {
@@ -92,8 +114,13 @@
       "_index-fa6a6bc5.js"
     ]
   },
+<<<<<<< HEAD
   "_copy-29abe5c2.js": {
     "file": "_app/immutable/chunks/copy-29abe5c2.js",
+=======
+  "_copy-b76f1d3e.js": {
+    "file": "_app/immutable/chunks/copy-b76f1d3e.js",
+>>>>>>> parent of b418a8c... update page
     "imports": [
       "_index-fa6a6bc5.js"
     ],
