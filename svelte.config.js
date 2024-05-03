@@ -23,34 +23,34 @@ const base = dev || !dir ? "" : `${prefix}${dir}`;
 
 // const dev = "production" === "development";
 
-// /** @type {import('@sveltejs/kit').Config} */
-// const config = {
-// 	kit: {
-// 		adapter: adapter({
-// 			fallback: '404.html'
-// 		}),
-// 		paths: {
-// 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
-// 		}
-// 	}
-// };
-
+/** @type {import('@sveltejs/kit').Config} */
 const config = {
-    kit: {
-        adapter: adapter({
-            pages: 'build',
-            assets: 'build',
-            fallback: null,
-            precompress: false
-        }),
-        prerender: {
-            default: true,
-        },
-        trailingSlash: 'always',
-        paths: {
-            base: '/repo_name'
-        }
-    }
+	kit: {
+		adapter: adapter({
+			fallback: '404.html'
+		}),
+		paths: {
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+		}
+	}
 };
+
+// const config = {
+//     kit: {
+//         adapter: adapter({
+//             pages: 'build',
+//             assets: 'build',
+//             fallback: null,
+//             precompress: false
+//         }),
+//         prerender: {
+//             default: true,
+//         },
+//         trailingSlash: 'always',
+//         paths: {
+//             base: '/repo_name'
+//         }
+//     }
+// };
 
 export default config;
