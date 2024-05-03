@@ -1,7 +1,11 @@
 {
   ".svelte-kit/runtime/client/start.js": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "file": "_app/immutable/start-f1434e65.js",
+=======
+    "file": "_app/immutable/start-2bb736c1.js",
+>>>>>>> parent of b418a8c... update page
 =======
     "file": "_app/immutable/start-2bb736c1.js",
 >>>>>>> parent of b418a8c... update page
@@ -52,7 +56,11 @@
   },
   "src/routes/Resume.svelte": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "file": "_app/immutable/pages/Resume.svelte-212890e4.js",
+=======
+    "file": "_app/immutable/pages/Resume.svelte-6385458c.js",
+>>>>>>> parent of b418a8c... update page
 =======
     "file": "_app/immutable/pages/Resume.svelte-6385458c.js",
 >>>>>>> parent of b418a8c... update page
@@ -79,6 +87,9 @@
 =======
       "_index-6108c67f.js",
       "_copy-b76f1d3e.js"
+<<<<<<< HEAD
+>>>>>>> parent of b418a8c... update page
+=======
 >>>>>>> parent of b418a8c... update page
     ],
     "css": [
@@ -87,7 +98,11 @@
   },
   "src/routes/index.svelte": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "file": "_app/immutable/pages/index.svelte-f06a475e.js",
+=======
+    "file": "_app/immutable/pages/index.svelte-e747df73.js",
+>>>>>>> parent of b418a8c... update page
 =======
     "file": "_app/immutable/pages/index.svelte-e747df73.js",
 >>>>>>> parent of b418a8c... update page
@@ -102,6 +117,9 @@
 =======
       "_index-6108c67f.js",
       "_copy-b76f1d3e.js"
+<<<<<<< HEAD
+>>>>>>> parent of b418a8c... update page
+=======
 >>>>>>> parent of b418a8c... update page
     ]
   },
@@ -115,8 +133,13 @@
     ]
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
   "_copy-29abe5c2.js": {
     "file": "_app/immutable/chunks/copy-29abe5c2.js",
+=======
+  "_copy-b76f1d3e.js": {
+    "file": "_app/immutable/chunks/copy-b76f1d3e.js",
+>>>>>>> parent of b418a8c... update page
 =======
   "_copy-b76f1d3e.js": {
     "file": "_app/immutable/chunks/copy-b76f1d3e.js",
