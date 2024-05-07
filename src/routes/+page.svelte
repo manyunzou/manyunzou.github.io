@@ -2,7 +2,7 @@
     import "/src/styles/bootstrap.min.css";
 
     import { setContext } from "svelte";
-    import { browser } from "$app/env";
+    // import { browser } from "$app/env";
     import { onMount } from "svelte";
     import Meta from "/src/components/Meta.svelte";
     import App from "/src/components/App.svelte";

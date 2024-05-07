@@ -66,16 +66,6 @@ export default [
     },
     {
         "no": "6",
-        "name": "Land Use and Land Value in Boston",
-        // "date": "Oct 2021",
-        "bref": "This is an infographic highlighting major findings from a research project at Boston Planning & Development Agency– in Boston, the highest assessed value is concentrated in neighborhoods close to Downtown, as many of these parcels are commercial or mixed-use.",
-        "url": "https://www.bostonplans.org/getattachment/24f7be66-a95b-45d9-a9c5-5af53e210790",
-        "process": "Data Visualization & Mapping - Writing",
-        "language":"eng",
-        "illustrator":"y"
-    },
-    {
-        "no": "7",
         "name": "China's Coal Miners Pile Up Record $111 Billion in Profit",
         // "date": "Feb 2022",
         "bref":"China’s coal mining sector doubled its profits in 2021 as the nation’s pandemic recovery ramped up demand for the pollution-emitting fuel source. In this piece, I analyzed industry profits from 2011 to 2021 and showcased how the mining sector moved up its rankings among all the industries over the past six years.",
@@ -86,7 +76,7 @@ export default [
         "illustrator":"y"
     },
     {
-        "no": "8",
+        "no": "7",
         "name": "How Chinese FOIA failed the citizens' requests",
         // "date": "April 2019",
         "bref": "I was surprised to learn that China has a FOIA system too. Since there are no public records of the requests, I spent four months analyzing more than 4,000 court case files to figure out what Chinese citizens were asking for, and why local governments rejected handing those documents to them.",
@@ -97,7 +87,7 @@ export default [
     },
     
     {
-        "no": "9",
+        "no": "8",
         "name": "What we need to know about the personal income tax reform",
         // "date": "Jan 2019",
         "bref": "Tax reform is hard for common people to interpret. Therefore, after China announced their new policy, we built up a tool to help readers understand how the reform would affect their income, and how it would affect different groups of people based on their company types, educational degrees, and more.",
@@ -108,7 +98,7 @@ export default [
         "js":"y"
     },
     {
-        "no": "10",
+        "no": "9",
         "name": "Chinese Apps are Removing Search Function for Teenagers",
         // "date": "Aug 2021",
         "bref":"In a wave of regulations targeting minors, Chinese apps were ordered to shield teenagers from 'unhealthy and harmful' content. I ran a test on the most popular social media, WeChat, to see if it managed to meet the policy requirements, and how it balanced the entertaining service and the policy. Not a good balance, I would say.",
