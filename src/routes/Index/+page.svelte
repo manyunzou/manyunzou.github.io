@@ -1,5 +1,4 @@
 <script>
-    import "/src/styles/bootstrap.min.css";
 
     import { setContext } from "svelte";
     // import { browser } from "$app/env";
