@@ -15,7 +15,7 @@
 			Is TTPD the Saddest Album of Taylor Swift?
 		</h1>
 		<h2>
-			By Manyun Zou
+			By <a href="https://manyunzou.github.io/">Manyun Zou</a>
 		</h2>
 	</div>
 
@@ -92,18 +92,18 @@
         padding-top: 20px;
     }
 
-    .main-text a{
+    a{
         text-decoration:none;
         color: #000;
         background-color: #fff;
     }
 
-    .main-text a:hover{
+    a:hover{
         background-color: #000;
         color: #fff;
     }
 
-    .main-text a:visited{
+    a:visited{
         text-decoration:none;
     }
 
