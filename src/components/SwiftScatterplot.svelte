@@ -1,5 +1,4 @@
 <script>
-  export let step;
 
   let data = [
     {album:"Taylor Swift",compound:5.79,year:2006,yaxis:2, xaxis:10, color:"#A5C9A5"},
@@ -97,6 +96,7 @@
   bind:offsetHeight={height}
 >
   <svg width={width + margin.right + margin.left} {height}>
+    <text x={xScale(10)} y="40" fill="#666" font-size="15">Hover over to see the compound score</text>
     {#each tweenedData as d}
       <rect
         x={xScale(d.x)}
@@ -105,8 +105,16 @@
         height={zScale(d.compound)}
         fill={d.color}
         opacity="1"
+        on:mouseenter={()=>{
+          console.log("enter!")
+          d3.selectAll(".scoreText").style("display","block");
+        }}
+        on:mouseleave={()=>{
+          d3.selectAll(".scoreText").style("display","none");
+        }}
       />
-      <text class="step2" y={yScale(d.y)-10} x={xScale(d.x)}>{d.label}</text>
+      <text stroke="black" stroke-width="0.4px" y={yScale(d.y)-10} x={xScale(d.x)}>{d.label}</text>
+      <text class="scoreText" y={yScale(d.y) + zScale(d.compound + 4)} x={xScale(d.x)} display="none">{d.compound}</text>
     {/each}
   </svg>
 </div>

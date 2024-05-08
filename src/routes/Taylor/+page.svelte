@@ -21,12 +21,12 @@
 
     <p class="main-text">I bet you can also feel the heartbreaking vibe from Taylor's latest album, The Tortued Poets Department (TTPD). And you might also ponder over the same question as mine: is this her saddest album?</p>
 
-    <p class="main-text">Some of TTPD songs have definitely made to the ranking of Taylor's saddest songs. After all, she released this album after the breakup of a 6-year relationship. But surprisingly, according to the computer judgment, which can be vastly different from human feelings, the saddest song overall comes from another popular album, 1989.</p>
+    <p class="main-text">Some of TTPD's songs have definitely made it to the ranking of Taylor's saddest songs. After all, she released this album after the breakup of a 6-year relationship. But surprisingly, according to computer judgment, which can be vastly different from human feelings, the saddest song overall comes from another popular album, 1989.</p>
 
     <p class="main-text">Here is the chart. As you can see, on the left end, which represents the most negative emotion scores, four songs come from 1989.</p>
 
     <div class="Section-container" style="margin-top:20px">
-        <h2>Emotion Score by Songs</h2>
+        <h2>Taylor Swift's Songs by Emotion</h2>
         <Rectplot />
     </div>
 
@@ -34,7 +34,7 @@
 
     <p class="main-text"><span style="text-decoration:underline 5px #B5E5F8">Shake It Off</span>, <span style="text-decoration:underline 5px #B5E5F8">This Love</span>, <span style="text-decoration:underline 5px #B5E5F8">I Wish You Would</span>, <span style="text-decoration:underline 5px #D30000">I Knew You Were Trouble</span>, <span style="text-decoration:underline 5px #000000">Down Bad</span>, <span style="text-decoration:underline 5px #000000">Cassandra</span>, <span style="text-decoration:underline 5px #B5E5F8">Bad Blood</span>, <span style="text-decoration:underline 5px #000000">The Albatross</span>, <span style="text-decoration:underline 5px #F7B0CC">Miss Americana & The Heartbreak Prince</span>, and <span style="text-decoration:underline 5px #F7B0CC">I Forgot That You Existed</span>.</p>
 
-    <p class="main-text">What is more surprising is that Taylor's saddest album, judged by the computer, is none of these three. The chart below presents 11 studio albums released by Swift since 2006. The longer the bar is, the higher positive scores the album has.</p>
+    <p class="main-text">What is more surprising is that Taylor's saddest album, judged by the computer, is none of these three. The chart below presents 11 studio albums released by Swift since 2006. The longer the bar is, the higher positive scores the album has. (Yes, overall, all Taylor's albums are positive.)</p>
 
     <p class="main-text">And the answer is: Folklore is the saddest album, and TTPD comes the next.</p>
 
@@ -76,7 +76,7 @@
     }
 
     .hero h2 {
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 0;
         font-weight: 500;
         font-family: "Quicksand", sans-serif;

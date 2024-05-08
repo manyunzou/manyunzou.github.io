@@ -107,6 +107,9 @@
   {/each}
 </g>
 
+<text x="0" y="280" fill="#666">Most Negative</text>
+<text x={$width-80} y="280" fill="#666">Most Positive</text>
+
 <style>
   .tick {
     font-size: 11px;
